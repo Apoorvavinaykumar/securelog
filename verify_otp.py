@@ -5,6 +5,7 @@ Created on Mon Apr 15 00:54:07 2024
 @author: User
 """
 
+
 def verify_OTP(actual,entered):
     if(actual==entered):
         print("verfication succeeded")
@@ -12,3 +13,6 @@ def verify_OTP(actual,entered):
         print("incorrect OTP,try again")
         
 verify_OTP(1234, 12345)
+
+
+
