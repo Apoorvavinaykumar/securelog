@@ -1,7 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr 21 15:29:31 2024
+
+@author: Anusha V
+"""
+
 import random
-def generate_otp(l):
-    print("generate otp")
-    otp=''.join(random.choices('0123456789',k=l))
-    return otp 
-otp=generate_otp(4)
-print("The Generated OTP is :",otp )
+def generate_captcha(l):
+    print("genrate captcha")
+    captcha=''.join(random.choices('abcdefghijklmnopqrstuvwxyz',k=l))
+    return captcha
+captcha=generate_captcha(5)
+print(captcha)
